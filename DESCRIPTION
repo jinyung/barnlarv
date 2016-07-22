@@ -1,0 +1,15 @@
+Package: barnlarv
+Type: Package
+Title: Meta-analysis of barnacle larvae literature
+Version: 0.0.1
+Date: 2016-07-20
+Author: Wong Jin Yung
+Maintainer: Wong Jin Yung <wongjinyung@gmail.com>
+Description: A packagee contains morphometrics data of barnancle larvae
+    digitized from literature
+License: GPL(>= 2)
+Depends:
+    R(>= 3.0.0)
+LazyLoad: yes
+URL: https://github.com/jinyung/larvae-review
+RoxygenNote: 5.0.1
