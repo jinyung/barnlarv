@@ -42,8 +42,8 @@ for (i in 1:length(ontogeny_outline)) {
 # plot to check again
 # for (i in spidx){
 #   lefthalf <- which(ontogeny_outline[[i]][, 1] < 0)
-#   ontogeny_star[i] <- lefthalf[which.min(abs(ontogeny_outline[[i]][lefthalf, 2] -
-#                                            0))]
+#   ontogeny_star[i] <- lefthalf[which.min(abs(
+#                                      ontogeny_outline[[i]][lefthalf, 2] - 0))]
 #   plot(ontogeny_outline[[i]], asp = 1 , type = "l")
 #   points(ontogeny_outline[[i]][ontogeny_star[i], 1],
 #            ontogeny_outline[[i]][ontogeny_star[i], 2], col = 4)
@@ -51,7 +51,8 @@ for (i in 1:length(ontogeny_outline)) {
 # ***** MANUAL ADJUSTMENT END *****
 
 # ========== semi-landmark extraction ===============
-ontogeny_landmark <- .extract_landmark(ontogeny_outline, p = 200, star = ontogeny_star)
+ontogeny_landmark <- .extract_landmark(ontogeny_outline, p = 200,
+                                       star = ontogeny_star)
 
 # check landmarks
 # for (i in 1:length(ontogeny_outline)){

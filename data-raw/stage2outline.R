@@ -35,7 +35,6 @@ for (i in 1:imgnum) {
   im <- abs(im - 1) # inverse the image
   x <- dim(im)[1]
   y <- dim(im)[2]
-  #rscale <- stage2mdat$pic.scale[i] / 0.273822563 # all enlarged
   # using the scale provided in frontal-horn-summary.csv to standardize size
   rscale <- stage2mdat$pic.scale[i] / 0.25 # all enlarged 4 times
   im <- resize(im, w = x * rscale)

@@ -13,3 +13,6 @@ Depends:
 LazyLoad: yes
 URL: https://github.com/jinyung/larvae-review
 RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
