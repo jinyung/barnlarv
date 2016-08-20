@@ -171,64 +171,98 @@
 
 # Note: this works specifically for outline reconstruction without first
 # harmonics BUT retain the d_1 coefficient
-.plot_pca_tps <- function(nef.coef, pca, har, n = 40) {
+.plot.pca.tps <- function(nef.coef, pca, har, n = 40,
+                          fun = c("sd", "2sd", "range"), pc = 2) {
+  fun <- match.arg(fun)
   coef.len <- dim(nef.coef)[2] / 4
 
   # coefficient of mean shape
-  mshape_coef <- apply(nef.coef[, c(1:har, 1:har + coef.len,
+  mshape.coef <- apply(nef.coef[, c(1:har, 1:har + coef.len,
                                     1:har + coef.len * 2,
                                     1:har + coef.len * 3)], 2,  mean)
 
   # get the loadings of the PC
   rot <- pca$rotation
 
-  # compute the extreme coefficient values on PC
+  # compute the extreme or sd coefficient values on PC
   nhar <- har - 1
-  pc1_max_coef <- mshape_coef + max(pca$x[, 1]) * c(0, rot[1:nhar, 1],
-                                                    0, rot[1:nhar+nhar, 1],
-                                                    0, rot[1:nhar+nhar*2, 1],
-                                                    rot[1:har+nhar*3, 1])
-  pc1_min_coef <- mshape_coef + min(pca$x[, 1]) * c(0, rot[1:nhar, 1],
-                                                    0, rot[1:nhar+nhar, 1],
-                                                    0, rot[1:nhar+nhar*2, 1],
-                                                    rot[1:har+nhar*3, 1])
-  pc2_max_coef <- mshape_coef + max(pca$x[, 2]) * c(0, rot[1:nhar, 2],
-                                                    0, rot[1:nhar+nhar, 2],
-                                                    0, rot[1:nhar+nhar*2, 2],
-                                                    rot[1:har+nhar*3, 2])
-  pc2_min_coef <- mshape_coef + min(pca$x[, 2]) * c(0, rot[1:nhar, 2],
-                                                    0, rot[1:nhar+nhar, 2],
-                                                    0, rot[1:nhar+nhar*2, 2],
-                                                    rot[1:har+nhar*3, 2])
+  pc1.rot <- c(0, rot[1:nhar, 1], 0, rot[1:nhar+nhar, 1],
+               0, rot[1:nhar+nhar*2, 1], rot[1:har+nhar*3, 1])
+  pc2.rot <- c(0, rot[1:nhar, 2], 0, rot[1:nhar+nhar, 2],
+               0, rot[1:nhar+nhar*2, 2], rot[1:har+nhar*3, 2])
+
+  if (fun == "range") {
+    pc1.plus.score <- max(pca$x[, 1])
+    pc1.minus.score <- min(pca$x[, 1])
+    pc2.plus.score <- max(pca$x[, 2])
+    pc2.minus.score <- min(pca$x[, 2])
+  } else {
+    times <- ifelse (fun == "2sd", 2, 1)
+    pc1.plus.score <- mean(pca$x[, 1]) + times * sd(pca$x[, 1])
+    pc1.minus.score <- mean(pca$x[, 1]) - times * sd(pca$x[, 1])
+    pc2.plus.score <- mean(pca$x[, 2]) + times * sd(pca$x[, 2])
+    pc2.minus.score <- mean(pca$x[, 2]) -times * sd(pca$x[, 2])
+  }
+
+  pc1.plus.coef <- mshape.coef + pc1.plus.score * pc1.rot
+  pc1.minus.coef <- mshape.coef + pc1.minus.score * pc1.rot
+  pc2.plus.coef <- mshape.coef + pc2.plus.score * pc2.rot
+  pc2.minus.coef <- mshape.coef + pc2.minus.score * pc2.rot
+
+  # pc1_max_coef <- mshape_coef + max(pca$x[, 1]) * c(0, rot[1:nhar, 1],
+  #                                                   0, rot[1:nhar+nhar, 1],
+  #                                                   0, rot[1:nhar+nhar*2, 1],
+  #                                                   rot[1:har+nhar*3, 1])
+  # pc1_min_coef <- mshape_coef + min(pca$x[, 1]) * c(0, rot[1:nhar, 1],
+  #                                                   0, rot[1:nhar+nhar, 1],
+  #                                                   0, rot[1:nhar+nhar*2, 1],
+  #                                                   rot[1:har+nhar*3, 1])
+  # pc2_max_coef <- mshape_coef + max(pca$x[, 2]) * c(0, rot[1:nhar, 2],
+  #                                                   0, rot[1:nhar+nhar, 2],
+  #                                                   0, rot[1:nhar+nhar*2, 2],
+  #                                                   rot[1:har+nhar*3, 2])
+  # pc2_min_coef <- mshape_coef + min(pca$x[, 2]) * c(0, rot[1:nhar, 2],
+  #                                                   0, rot[1:nhar+nhar, 2],
+  #                                                   0, rot[1:nhar+nhar*2, 2],
+  #                                                   rot[1:har+nhar*3, 2])
 
   # inverse fourier to get the outline
-  n_point <- dim(nef.coef)[2] / 2
+  n.point <- dim(nef.coef)[2] / 2
   if (missing(har))
     har <- dim(nef.coef)[2] / 4
-  mshape_co <- .iefourier_co(mshape_coef, har, n = n_point)
-  pc1_max_co <- .iefourier_co(pc1_max_coef, har, n = n_point)
-  pc1_min_co <- .iefourier_co(pc1_min_coef, har, n = n_point)
-  pc2_max_co <- .iefourier_co(pc2_max_coef, har, n = n_point)
-  pc2_min_co <- .iefourier_co(pc2_min_coef, har, n = n_point)
+  mshape_co <- .iefourier_co(mshape.coef, har, n = n.point)
+  pc1_max_co <- .iefourier_co(pc1.plus.coef, har, n = n.point)
+  pc1_min_co <- .iefourier_co(pc1.minus.coef, har, n = n.point)
+  pc2_max_co <- .iefourier_co(pc2.plus.coef, har, n = n.point)
+  pc2_min_co <- .iefourier_co(pc2.minus.coef, har, n = n.point)
 
   # plot
   master <- .plotf(nef.coef, plot = FALSE)
-  layout(matrix(c(rep(rep(c(1, 2, 3), each = 2), 2),
-                  rep(rep(c(4, 5, 6), each = 2), 2),
-                  rep(rep(c(7, 8, 9), each = 2), 2)), 6, 6))
+  empty.plot <- expression(plot(1, 1, type = "n", axes = F, xlab = "",
+                               ylab = ""))
+  # layout(matrix(c(rep(rep(c(1, 2, 3), each = 2), 2),
+  #                 rep(rep(c(4, 5, 6), each = 2), 2),
+  #                 rep(rep(c(7, 8, 9), each = 2), 2)), 6, 6))
+  pc1 <- expression({
+    .tps2(mshape_co, pc1_min_co, n, master, main = "-PC1")
+    polygon(pc1_min_co, lwd = 2)
+    .tps2(mshape_co, mshape_co, n, master, main = "Mean")
+    polygon(mshape_co, lwd = 2)
+    .tps2(mshape_co, pc1_max_co, n, master, main = "+PC1")
+    polygon(pc1_max_co, lwd = 2)
+  })
+
   par(mar = c(0, 0, 3, 0))
-  plot(1, 1, type = "n", axes = F, xlab = "", ylab = "")
-  .tps2(mshape_co, pc1_min_co, n, master, main = "-PC1")
-  polygon(pc1_min_co, lwd = 2)
-  plot(1, 1, type = "n", axes = F, xlab = "", ylab = "")
-  .tps2(mshape_co, pc2_max_co, n, master, main = "+PC2")
-  polygon(pc2_max_co, lwd = 2)
-  .tps2(mshape_co, mshape_co, n, master, main = "Mean")
-  polygon(mshape_co, lwd = 2)
-  .tps2(mshape_co, pc2_min_co, n, master, main = "-PC2")
-  polygon(pc2_min_co, lwd = 2)
-  plot(1, 1, type = "n", axes = F, xlab = "", ylab = "")
-  .tps2(mshape_co, pc1_max_co, n, master, main = "+PC1")
-  polygon(pc1_max_co, lwd = 2)
-  plot(1, 1, type = "n", axes = F, xlab = "", ylab = "")
+  if (pc == 2) {
+    layout(matrix(c(6, 4, 7, 1:3, 8, 5, 9), 3, 3, byrow = TRUE))
+    eval(pc1)
+    .tps2(mshape_co, pc2_max_co, n, master, main = "+PC2")
+    polygon(pc2_max_co, lwd = 2)
+    .tps2(mshape_co, pc2_min_co, n, master, main = "-PC2")
+    polygon(pc2_min_co, lwd = 2)
+    eval(rep(empty.plot, 4))
+  } else {
+    layout(pc.layout <- matrix(c(1:3), 1, 3))
+    eval(pc1)
+  }
 }
