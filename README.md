@@ -6,12 +6,14 @@
 ## About
 This is a companion `R` package to the manuscript:
 
-> Wong, J. Y., Chan, K.Y.K., & Chan, B. K. K. (2017). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii.
+> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (2017). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii.
 
 Findings reported in the manuscript can be reproduced with the datasets and codes from this package.
 
+---
+
 ## Installation:
-- using tarball/zip from [releases](releases) page. In `R`:
+- using tarball from [releases](https://github.com/jinyung/barnlarv/releases) page*. In `R`:
 
 ```R
 install.packages("<path to downloaded zip/tarball>",repos = NULL)
@@ -21,6 +23,14 @@ install.packages("<path to downloaded zip/tarball>",repos = NULL)
 ```R
 devtools::install_github("jinyung/barnlarv")
 ```
+
+\*Note:
+
+  1. binaries for Windows not provided at the moment, `devtools` method should work across platforms. 
+
+  2. [releases](https://github.com/jinyung/barnlarv/releases) page also contains package manual.
+
+---
 
 ## Using data from the package 
 
@@ -49,6 +59,8 @@ ape::read.tree(system.file("extdata/perez-tree-37-species",
                package = "barnlarv"))
 ```
 
+---
+
 ## Reproducing the results
 
 All tables and figures can be reproduced following the dynamic `R markdown` documents:
@@ -58,5 +70,4 @@ All tables and figures can be reproduced following the dynamic `R markdown` docu
 
 These files will produce the figures and tables used for submission (`knitr` engine required for compilation)
 
----
-** Note: will be available after manuscript review (>`v0.0.1` release)
+\*\*Note: will be available after manuscript review
