@@ -16,8 +16,18 @@ stage2mdat <- read.csv(system.file("extdata/stage2", "frontal-horn-summary.csv",
                                    package = "barnlarv"))
 
 # img list
-drawing_dir <- system.file("extdata/stage2", "larvae_drawing", package = "barnlarv")
+drawing_dir <- system.file("extdata/stage2", "larvae_drawing",
+                           package = "barnlarv")
 stage2list <- list.files(drawing_dir, full.names = TRUE, pattern = ".tif")
+
+# # debug
+# debugdf <- data.frame(a = sapply(stage2list, function(x) {
+#                                   a <- unlist(strsplit(basename(x), "-"));
+#                                   paste(a[1], a[2])
+#                                   }, USE.NAMES = FALSE),
+#             b = paste(stage2mdat$genus, stage2mdat$species))
+# debugdf[!debugdf$a %in% debugdf$b, ]
+
 
 # ========== initialize ===============
 # number of images

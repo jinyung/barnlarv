@@ -20,21 +20,22 @@ for (i in 1:length(stage2outline)) {
 # visually check for starting points
 for (i in 1:length(stage2outline)) {
   plot(stage2outline[[i]], asp = 1, type = "l")
-  points(stage2outline[[i]][stage2star[i], 1], stage2outline[[i]][stage2star[i], 2], col =3)
+  points(stage2outline[[i]][stage2star[i], 1], stage2outline[[i]][stage2star[i],
+                                                                  2], col =3)
   centroid <- apply(stage2outline[[i]], 2, mean)
   text(centroid[1], centroid[2], paste(i, names(stage2outline[i])))
 }
 
-# stage2outline with wrong starting points
-# ***** manual adjustments commented out
-# following species starting point needed to be adjusted
-# idx <- c("Sacculina sinensis", "Sacculina pilosella", "Sacculina carcini",
+# # stage2outline with wrong starting points
+# # ***** manual adjustments commented out
+# # following species starting point needed to be adjusted
+# idx <- c("Sacculina pilosella", "Sacculina carcini",
 #          "Polyascus polygenea", "Polyascus plana", "Heterosaccus papillosus",
 #          "Heterosaccus lunatus", "Briarosaccus callosus")
 # spidx <- which(names(stage2outline) %in% idx)
 
-# correction: define start point as left half closest to the x-axis
-# plot to check again
+# # correction: define start point as left half closest to the x-axis
+# # plot to check again
 # for (i in spidx){
 #   lefthalf <- which(stage2outline[[i]][, 1] < 0)
 #   stage2star[i] <- lefthalf[which.min(abs(stage2outline[[i]][lefthalf, 2] -
@@ -45,20 +46,21 @@ for (i in 1:length(stage2outline)) {
 #   text(centroid[1], centroid[2], paste(i, names(stage2outline[i])))
 # }
 
-# Polyascus plana, Sacculina sinensis still has problem
-# spidx <- c("Polyascus plana", "Sacculina sinensis")
+# # Polyascus plana still has problem
+# spidx <- "Polyascus plana"
 # for (i in which(names(stage2outline) %in% spidx)) {
 #   plot(stage2outline[[i]], asp = 1, type = "l")
 #   point <- unlist(locator(1))
 #   stage2star[i] <- which.min(apply(stage2outline[[i]], 1,
-#                                    .ed, point)) # stage2outline point nearest to my click
+#                                    .ed, point))
+#                 # stage2outline point nearest to my click
 # }
 # ***** MANUAL ADJUSTMENT END *****
 
 # ========== semi-landmark extraction ===============
 stage2landmark <- .extract_landmark(stage2outline, p = 200, star = stage2star)
 
-# visually check landmarks
+# # visually check landmarks
 # for (i in 1:length(stage2outline)){
 #  plot(stage2landmark[, ,i], asp = 1, type = "l")
 #  points(stage2landmark[, 1, i], stage2landmark[, 2, i], pch = 21,

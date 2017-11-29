@@ -1,104 +1,103 @@
-genus,species,reference,length,width,horn,pic-scale,source,diet
-Acasta,cyathus,This study,594,306.9,84.975,0.55,measure,planktotrophic
-Acasta,spongites,Moyse (1961),500.8130081301,177.2357723577,92.6829268293,0.8130081301,measure,planktotrophic
-Amphibalanus,amphitrite,Egan & Anderson (1986),337.0967741935,151.0752688172,61.2903225806,0.5376344086,measure,planktotrophic
-Amphibalanus,eburneus,Costlow & Bookhout (1957),383.9285714286,177.9761904762,57.7380952381,0.5952380952,measure,planktotrophic
-Amphibalanus,variegatus,Egan & Anderson (1986),305.4945054945,150,53.8461538462,0.5494505495,measure,planktotrophic
-Austrobalanus,imperator,Egan & Anderson (1988),454.4117647059,224.2647058824,86.0294117647,0.7352941176,measure,planktotrophic
-Austromegabalanus,nigrescens,Egan & Anderson (1987),478.5714285714,196.8253968254,82.5396825397,0.7936507937,measure,planktotrophic
-Austrominius,convertus,Egan & Anderson (1985),342.1875,169.2708333333,57.2916666667,0.5208333333,measure,planktotrophic
-Austrominius,modestus,Barker (1976),376.7045454545,153.4090909091,46.0227272727,0.5681818182,measure,planktotrophic
-Balanodytes,taiwanus,Chan et al. (2012),358.4158415842,86.6336633663,66.8316831683,0.495049505,measure,planktotrophic
-Balanus,albicostatus,Lee & Kim (1991),380.981595092,165.6441717791,57.0552147239,0.6134969325,measure,planktotrophic
-Balanus,balanus,Barnes & Costlow (1961),599.2268041237,242.2680412371,41.2371134021,1.2886597938,measure,planktotrophic
-Balanus,crenatus,Branscomb & Vedder (1982),428.5714285714,156.8322981366,54.347826087,1.5527950311,measure,planktotrophic
-Balanus,galeatus,Molenock & Gomez (1972),409.0909090909,191.6083916084,63.6363636364,0.6993006993,measure,planktotrophic
-Balanus,glandula,Brown & Roughgarden (1985),415.873015873,169.0476190476,40.4761904762,0.7936507937,measure,planktotrophic
-Balanus,improvisus,Jones & Crisp (1954),318.8720173536,147.5054229935,52.0607375271,1.0845986985,measure,planktotrophic
-Balanus,kondakovi,Karande (1979),306.3291139241,166.2447257384,34.5991561181,0.4219409283,measure,planktotrophic
-Balanus,reticulatus,Lee at al. (1999),396.3636363636,200,58.9090909091,0.7272727273,measure,planktotrophic
-Balanus,spongicola,Korn et al. (2001),577.1084337349,238.5542168675,62.6506024096,1.2048192771,measure,planktotrophic
-Balanus,subalbidus,Lang (1979),363.75,183.75,28.125,0.625,measure,planktotrophic
-Balanus,trigonus,Lang (1979),456.0240963855,174.0963855422,55.421686747,0.6024096386,measure,planktotrophic
-Balanus,venustus,Lang (1979),366.8831168831,177.2727272727,64.9350649351,0.6493506494,measure,planktotrophic
-Balanus,hesperiius,Barnes & Barnes (1959),468,153,77,1.7706636447,table,planktotrophic
-Balanus,nubilis,Barnes & Barnes (1959),433,201,60,1.2626262626,table,planktotrophic
-Balanus,algicola,Sandison & Day (1954),294.2321557318,116.0778658976,38.2119682769,0.7209805335,measure,planktotrophic
-Berndtia,purpurea,This study,557.7,293.15,49.5,0.55,measure,lecitotrophic
-Berndtia,utinomii,This study,565.95,312.95,48.95,0.55,measure,lecitotrophic
-Briarosaccus,callosus,Hawkes et al. (1985),336.3228699552,210.0149476831,70.2541106129,0.7473841555,measure,lecitotrophic
-Briarosaccus,tenellus,Walossek et al. (1996),494.2675159236,275.7961783439,56.050955414,0.6369426752,measure,lecitotrophic
-Capitulum,mitella,This study,470.25,220.55,102.025,0.55,measure,planktotrophic
-Catomerus,polymerus,Egan & Anderson (1989),389.2857142857,203.5714285714,67.8571428571,0.7142857143,measure,planktotrophic
-Chamaesipho,brunnea,Barker (1976),340.2777777778,185.4166666667,47.9166666667,0.6944444444,measure,planktotrophic
-Chamaesipho,columna,Barker (1976),291.6201117318,157.5418994413,28.4916201117,0.5586592179,measure,planktotrophic
-Chamaesipho,tasmanica,Egan & Anderson (1989),337.8151260504,187.3949579832,49.5798319328,0.8403361345,measure,planktotrophic
-Chelonibia,patula,This study,415.8,256.85,60.5,0.55,measure,planktotrophic
-Chelonibia,testudinaria,Zardus & Hadfield (2004),380.1801801802,221.6216216216,71.1711711712,0.9009009009,measure,planktotrophic
-Chirona,cristatus,Lee et al. (2002),247.7941176471,116.9117647059,24.2647058824,0.7352941176,measure,planktotrophic
-Chthamalus,aestuarii,Sandison (1967),319.6428571429,200.8928571429,58.9285714286,0.8928571429,measure,planktotrophic
-Chthamalus,antennatus,Egan & Anderson (1989),298.3050847458,170.3389830508,40.6779661017,0.8474576271,measure,planktotrophic
-Chthamalus,challengeri,Kim & Yamaguchi (1996),292.96875,175.78125,35.9375,0.78125,measure,planktotrophic
-Chthamalus,dentatus,Achituv (1986),342.0454545455,205.6818181818,48.8636363636,1.1363636364,measure,planktotrophic
-Chthamalus,fragilis,Lang (1979),259.6273291925,180.7453416149,35.4037267081,0.6211180124,measure,planktotrophic
-Chthamalus,malayensis,Yan & Chan (2001),311.4093959732,190.6040268456,40.2684563758,0.6711409396,measure,planktotrophic
-Chthamalus,montagui,Burrows et al. (1999),276.3736263736,158.7912087912,32.4175824176,0.5494505495,measure,planktotrophic
-Chthamalus,neglectus,Yan & Chan (2004),149.8023715415,88.1422924901,28.8537549407,0.395256917,measure,planktotrophic
-Chthamalus,stellatus,Burrows et al. (1999),324.7252747253,195.6043956044,65.3846153846,0.5494505495,measure,planktotrophic
-Conchoderma,auritum,Dalley (1984),769.9468085106,167.5531914894,227.3936170213,1.329787234,measure,planktotrophic
-Coronula,diadema,Nogata & Matsumura (2006),191.7419354839,96.2580645161,38.7096774194,1.2903225806,measure,planktotrophic
-Dawiniella,anguralis,This study,486.75,211.2,72.05,0.55,measure,planktotrophic
-Elminius,plicatus,Barker (1976),509.8484848485,194.696969697,77.2727272727,0.7575757576,measure,planktotrophic
-Euacasta,dofleini,This study,532.95,204.05,92.95,0.55,measure,planktotrophic
-Euraphia,pilsbryi,Kim & Yamaguchi (1996),374.0157480315,222.0472440945,74.0157480315,0.7874015748,measure,planktotrophic
-Fistulobalanus,pallidus,Sandison (1967),314.0350877193,175.4385964912,48.2456140351,0.8771929825,measure,planktotrophic
-Galkinia,tabulatus,This study,600.6,274.45,116.6,0.55,measure,planktotrophic
-Heterosaccus,lunatus,Walker & Lester (19998),180,105.0352941176,16.0941176471,0.4235294118,measure,lecitotrophic
-Heterosaccus,papillosus,Ponomarenko et al. (2005),221.9,117.5,22,0.5319148936,table,lecitotrophic
-Hexaminius,popeiana,Egan & Anderson (1985),329.1666666667,143.75,70.8333333333,0.5208333333,measure,planktotrophic
-Jehlius,cirratus,Venegas et al. (2000),390.6593406593,210.989010989,39.5604395604,0.8241758242,measure,planktotrophic
-Lepas,anatifera,Moyse (1987),810.2189781022,195.6204379562,264.2335766423,1.4598540146,measure,planktotrophic
-Lepas,pectinata,Lang (1979),705.5555555556,177.7777777778,243.5185185185,0.9259259259,measure,planktotrophic
-Lepas,anserifera,This study,781.55,139.15,209.55,0.55,measure,planktotrophic
-Leucolepas,longa,Tunnicliffe & Southward (2004),822.8571428571,275.2380952381,51.4285714286,0.9523809524,measure,lecitotrophic
-Lithotrya,dorsalis,Dineen (1987),554.6666666667,221.3333333333,106.6666666667,1.3333333333,measure,planktotrophic
-Megabalanus,californicus,Miller & Roughgarden (1994),505.5865921788,290.5027932961,89.3854748603,1.3966480447,measure,planktotrophic
-Megabalanus,rosa,Kado & Hirano (1994),421.1678832117,202.9197080292,65.6934306569,0.7299270073,measure,planktotrophic
-Megabalanus,volcano,Kado & Hirano (1994),388.6287625418,197.3244147157,70.9030100334,0.6688963211,measure,planktotrophic
-Membranobalanus,koreanus,Lee & Kim (2000),493.1034482759,204.3103448276,41.3793103448,0.8620689655,measure,planktotrophic
-Microeuraphia,withersi,Li et al. (2011),338.2857142857,225.7142857143,45.7142857143,0.5714285714,measure,planktotrophic
-Neoverruca,sp.,Watanabe et al. (1999),527.1644162033,268.6894360604,36.5369340747,1.5885623511,measure,lecitotrophic
-Notochthamalus,scabrosus,Venegas et al. (2000),366.577540107,204.5454545455,54.9465240642,0.8021390374,measure,planktotrophic
-Octolasmis,angulata,Yap et al. (2015),765,117,164,1.7857142857,table,planktotrophic
-Octolasmis,cor,Yap et al. (2015),711,115,176,1.7857142857,table,planktotrophic
-Octolasmis,forrestii,Lang (1979),1083.3333333333,174.358974359,117.9487179487,1.2820512821,measure,planktotrophic
-Octolasmis,mulleri,Lang (1976),810.8910891089,89.1089108911,69.3069306931,0.9900990099,measure,planktotrophic
-Octolasmis,warwickii,This study,1006.5,140.8,168.85,0.55,measure,planktotrophic
-Octomeris,brunnea,Kim (1998),353.75,243.125,55,0.625,measure,planktotrophic
-Octomeris,angulosa,Sandison & Day (1954),320.1550387597,183.7209302326,65.8914728682,0.7751937984,measure,planktotrophic
-Pollicipes,cornucopia,Molares et al. (1994),423.8372093023,230.2325581395,101.7441860465,0.5813953488,measure,planktotrophic
-Pollicipes,polymerus,Lewis (1975),305.1724137931,181.0344827586,64.6551724138,0.8620689655,measure,planktotrophic
-Polyascus,plana,Tu et al. (2009),214.406779661,158.4745762712,21.186440678,1.6949152542,measure,lecitotrophic
-Polyascus,polygenea,Korn et al. (2000),260.7,165.8,23.6,0.6493506494,table,lecitotrophic
-Pseudoctomeris,sulcata,Kado & Kim (1996),384.6153846154,200.6688963211,73.5785953177,0.6688963211,measure,planktotrophic
-Pyrgoma,anglicum,Moyse (1961),436.5384615385,228.8461538462,82.6923076923,0.9615384615,measure,planktotrophic
-Sacculina,carcini,Collis & Walker (2004),343.9688715953,154.0856031128,21.4007782101,0.3891050584,measure,lecitotrophic
-Sacculina,pilosella,Korn & Rybakow (2001),239.4,130.6,19.2,0.8474576271,table,lecitotrophic
-Sacculina,sinensis,Chan (2005),41.8930041152,25.3497942387,2.7160493827,0.0823045267,measure,lecitotrophic
-Savignium,milleporum,Stewart et al. (1989),537.2641509434,247.1698113208,67.9245283019,0.9433962264,measure,planktotrophic
-Semibalanus,balanoides,Pyefinch (1948),525.198938992,271.8832891247,39.124668435,0.6631299735,measure,planktotrophic
-Semibalanus,cariosus,Branscomb & Vedder (1982),678.5714285714,296.5838509317,69.8757763975,1.5527950311,measure,planktotrophic
-Solidobalanus,fallax,Korn & Elfimov (1999),428,190,99,1.1627906977,table,planktotrophic
-Solidobalanus,hesperius,Barnes & Barnes (1959),467.35395189,164.9484536082,82.4742268041,1.7182130584,measure,planktotrophic
-Tesseropora,rosea,Egan & Anderson (1988),455.5555555556,230.3703703704,70.3703703704,0.7407407407,measure,planktotrophic
-Tesseropora,pacifica,Crisp (1986),596.4419475655,371.7228464419,100.1872659176,0.936329588,measure,lecitotrophic
-Tetraclita,formosana,This study,443.3,226.05,72.325,0.55,measure,planktotrophic
-Tetraclita,japonica,This study,440.55,225.5,72.05,0.55,measure,planktotrophic
-Tetraclita,kuroshioensis,This study,494.45,273.35,82.225,0.55,measure,planktotrophic
-Tetraclita,rubescens,Miller & Roughgarden (1994),546.4601769912,255.5309734513,88.4955752212,1.1061946903,measure,planktotrophic
-Tetraclita,rufotincta,Barnes & Achituv (1981),548,358.4,94.1,1.0526315789,table,lecitotrophic
-Tetraclita,squamosa,Chan (2003),249.4382022472,129.2134831461,46.0674157303,0.5617977528,measure,planktotrophic
-Tetraclita,serrata,Sandison & Day (1954),404.6692607004,224.1245136187,57.5875486381,0.7782101167,measure,planktotrophic
-Tetraclitella,karandei,Karande (1974),489.3333333333,229.3333333333,70,0.6666666667,measure,planktotrophic
-Tetraclitella,purpurascens,Egan & Anderson (1988),359.0909090909,204.5454545455,71.4285714286,0.6493506494,measure,planktotrophic
-Verruca,stroemia,Pyefinch (1948),448.6842105263,207.8947368421,85.5263157895,0.6578947368,measure,planktotrophic
+genus,species,reference,length,width,horn,pic-scale,source,diet,Fh-width,habitat,larval_habitat,pld,temp,pld-low,pld-high,temp_cold_low,temp_cold_high
+Acasta,cyathus,This study,594,306.9,84.975,0.55,measure,planktotrophic,423.0314,sponge,coral_reef,na,na,na,na,na,na
+Acasta,spongites,Moyse (1961),500.8130081301,177.2357723577,92.6829268293,0.8130081301,measure,planktotrophic,333.87723578,sponge,coral_reef,ns,na,ns,ns,na,na
+Adna,anglica,Moyse (1961),436.5384615385,228.8461538462,82.6923076923,0.9615384615,measure,planktotrophic,375.0201922927,coral,coral_reef,7,20,7,7,0,0
+Amphibalanus,amphitrite,Egan & Anderson (1986),337.0967741935,151.0752688172,61.2903225806,0.5376344086,measure,planktotrophic,261.2241935473,inter_sub,coastal,16-17,20,16,17,0,0
+Amphibalanus,eburneus,Costlow & Bookhout (1957),383.9285714286,177.9761904762,57.7380952381,0.5952380952,measure,planktotrophic,258.7315476025,inter_sub,coastal,7-12,26,7,12,0,0
+Amphibalanus,improvisus,Jones & Crisp (1954),318.8720173536,147.5054229935,52.0607375271,1.0845986985,measure,planktotrophic,247.3264642124,inter_sub,coastal,ns,na,ns,ns,na,na
+Amphibalanus,reticulatus,Lee at al. (1999),396.3636363636,200,58.9090909091,0.7272727273,measure,planktotrophic,307.5469091024,inter_sub,coastal,ns,na,ns,ns,na,na
+Amphibalanus,subalbidus,Lang (1979),363.75,183.75,28.125,0.625,measure,planktotrophic,220.455625,inter_sub,coastal,ns,na,ns,ns,na,na
+Amphibalanus,variegatus,Egan & Anderson (1986),305.4945054945,150,53.8461538462,0.5494505495,measure,planktotrophic,248.4208791432,inter_sub,coastal,9-15,20,9,15,0,0
+Amphibalanus,venustus,Lang (1979),366.8831168831,177.2727272727,64.9350649351,0.6493506494,measure,planktotrophic,265.8064935267,inter_sub,coastal,ns,na,ns,ns,na,na
+Austrobalanus,imperator,Egan & Anderson (1988),454.4117647059,224.2647058824,86.0294117647,0.7352941176,measure,planktotrophic,329.4485293907,inter_sub,coastal,29,20,29,29,0,0
+Austromegabalanus,nigrescens,Egan & Anderson (1987),478.5714285714,196.8253968254,82.5396825397,0.7936507937,measure,planktotrophic,353.4785714505,inter_sub,coastal,18-21,20,18,21,0,0
+Austrominius,convertus,Egan & Anderson (1985),342.1875,169.2708333333,57.2916666667,0.5208333333,measure,planktotrophic,223.6119791524,inter_sub,coastal,15-17,20,15,17,0,0
+Austrominius,modestus,Barker (1976),376.7045454545,153.4090909091,46.0227272727,0.5681818182,measure,planktotrophic,212.1698863704,inter_sub,coastal,6,na,6,6,na,na
+Balanodytes,habei,Chan et al. (2012),358.4158415842,86.6336633663,66.8316831683,0.495049505,measure,planktotrophic,205.5698020008,borers,coastal,na,na,na,na,na,na
+Balanus,balanus,Barnes & Costlow (1961),599.2268041237,242.2680412371,41.2371134021,1.2886597938,measure,planktotrophic,292.5515463885,inter_sub,coastal,ns,na,ns,ns,na,na
+Balanus,crenatus,Branscomb & Vedder (1982),428.5714285714,156.8322981366,54.347826087,1.5527950311,measure,planktotrophic,257.8385093241,inter_sub,coastal,ns,na,ns,ns,na,na
+Balanus,glandula,Brown & Roughgarden (1985),415.873015873,169.0476190476,40.4761904762,0.7936507937,measure,planktotrophic,229.6682539825,inter_sub,coastal,13-14,15,13,14,1,1
+Balanus,nubilus,Barnes & Barnes (1959),433,201,60,1.2626262626,table,planktotrophic,292.5037878727,inter_sub,coastal,ns,na,ns,ns,na,na
+Balanus,spongicola,Korn et al. (2001),577.1084337349,238.5542168675,62.6506024096,1.2048192771,measure,planktotrophic,344.6542168651,sponge,coral_reef,8-11,20-25,8,11,0,0
+Balanus,trigonus,Lang (1979),456.0240963855,174.0963855422,55.421686747,0.6024096386,measure,planktotrophic,314.8602409878,inter_sub,coastal,ns,na,ns,ns,na,na
+Berndtia,purpurea,This study,557.7,293.15,49.5,0.55,measure,lecithotrophic,345.5122,coral,coral_reef,4,25,4,4,0,0
+Berndtia,utinomii,This study,565.95,312.95,48.95,0.55,measure,lecithotrophic,344.3,coral,coral_reef,4,25,4,4,0,0
+Briarosaccus,callosus,Hawkes et al. (1985),336.3228699552,210.0149476831,70.2541106129,0.7473841555,measure,lecithotrophic,211.2062780394,parasite,coastal,20-29,7-8,20,29,1,1
+Briarosaccus,tenellus,Walossek et al. (1996),494.2675159236,275.7961783439,56.050955414,0.6369426752,measure,lecithotrophic,351.60891722,parasite,coastal,26,5,26,26,1,1
+Capitulum,mitella,This study,470.25,220.55,102.025,0.55,measure,planktotrophic,347.0775,inter_sub,coastal,9-12,23-25,9,12,0,0
+Catomerus,polymerus,Egan & Anderson (1989),389.2857142857,203.5714285714,67.8571428571,0.7142857143,measure,planktotrophic,294.2992857202,inter_sub,coastal,14-16,ns,14,16,na,na
+Chamaesipho,brunnea,Barker (1976),340.2777777778,185.4166666667,47.9166666667,0.6944444444,measure,planktotrophic,250.3569444284,inter_sub,coastal,33,20,33,33,0,0
+Chamaesipho,columna,Barker (1976),291.6201117318,157.5418994413,28.4916201117,0.5586592179,measure,planktotrophic,201.8675977736,inter_sub,coastal,17,20,17,17,0,0
+Chamaesipho,tasmanica,Egan & Anderson (1989),337.8151260504,187.3949579832,49.5798319328,0.8403361345,measure,planktotrophic,253.794117661,inter_sub,coastal,20,ns,20,20,na,na
+Chelonibia,testudinaria,Zardus & Hadfield (2004),380.1801801802,221.6216216216,71.1711711712,0.9009009009,measure,planktotrophic,307.2189189186,epibiotic,coastal,9,25,9,9,0,0
+Chthamalus,antennatus,Egan & Anderson (1989),298.3050847458,170.3389830508,40.6779661017,0.8474576271,measure,planktotrophic,209.337288131,inter_sub,coastal,na,na,na,na,0,0
+Chthamalus,challengeri,Kim & Yamaguchi (1996),292.96875,175.78125,35.9375,0.78125,measure,planktotrophic,206.78359375,inter_sub,coastal,ns,na,ns,ns,0,0
+Chthamalus,dentatus,Achituv (1986),342.0454545455,205.6818181818,48.8636363636,1.1363636364,measure,planktotrophic,249.9670454625,inter_sub,coastal,30-32,RT,30,32,0,0
+Chthamalus,fragilis,Lang (1979),259.6273291925,180.7453416149,35.4037267081,0.6211180124,measure,planktotrophic,214.9211180047,inter_sub,coastal,ns,na,ns,ns,na,na
+Chthamalus,malayensis,Yan & Chan (2001),311.4093959732,190.6040268456,40.2684563758,0.6711409396,measure,planktotrophic,231.2006711419,inter_sub,coastal,14-20,"21,28",14,20,0,0
+Chthamalus,montagui,Burrows et al. (1999),276.3736263736,158.7912087912,32.4175824176,0.5494505495,measure,planktotrophic,188.4620879291,inter_sub,coastal,14-17,18.9-22.6,14,17,0,1
+Chthamalus,neglectus,Yan & Chan (2004),149.8023715415,88.1422924901,28.8537549407,0.395256917,measure,planktotrophic,120.8387351791,inter_sub,coastal,ns,na,ns,ns,na,na
+Chthamalus,stellatus,Burrows et al. (1999),324.7252747253,195.6043956044,65.3846153846,0.5494505495,measure,planktotrophic,287.6736263995,inter_sub,coastal,na,na,na,na,na,na
+Conchoderma,auritum,Dalley (1984),769.9468085106,167.5531914894,227.3936170213,1.329787234,measure,planktotrophic,604.7765957253,epibiotic,open_ocean,na,na,na,na,na,na
+Conchoderma,virgatum,This study,683,161,178,0.4666356,measure,planktotrophic,489,epibiotic,open_ocean,na,na,na,na,na,na
+Conopea,galeatus,Molenock & Gomez (1972),409.0909090909,191.6083916084,63.6363636364,0.6993006993,measure,planktotrophic,303.0664335661,inter_sub,coastal,6-11,23-25,6,11,0,0
+Coronula,diadema,Nogata & Matsumura (2006),191.7419354839,96.2580645161,38.7096774194,1.2903225806,measure,planktotrophic,157.7419354784,epibiotic,coastal,7,20,7,7,0,0
+Darwiniella,angularis,This study,486.75,211.2,72.05,0.55,measure,planktotrophic,322.55025,coral,coral_reef,8-10,25,8,10,0,0
+Epopella,plicata,Barker (1976),509.8484848485,194.696969697,77.2727272727,0.7575757576,measure,planktotrophic,319.7295454648,inter_sub,coastal,8,20,8,8,0,0
+Euacasta,dofleini,This study,532.95,204.05,92.95,0.55,measure,planktotrophic,354.42,sponge,coral_reef,na,na,na,na,na,na
+Euraphia,pilsbryi,Kim & Yamaguchi (1996),374.0157480315,222.0472440945,74.0157480315,0.7874015748,measure,planktotrophic,333.0858267703,inter_sub,coastal,ns,na,ns,ns,na,na
+Fistulobalanus,albicostatus,Lee & Kim (1991),380.981595092,165.6441717791,57.0552147239,0.6134969325,measure,planktotrophic,287.2110429376,inter_sub,coastal,ns,25,ns,ns,0,0
+Fistulobalanus,kondakovi,Karande (1979),306.3291139241,166.2447257384,34.5991561181,0.4219409283,measure,planktotrophic,228.6919831386,inter_sub,coastal,ns,na,ns,ns,na,na
+Fistulobalanus,pallidus,Sandison (1967),314.0350877193,175.4385964912,48.2456140351,0.8771929825,measure,planktotrophic,242.2640350998,inter_sub,coastal,ns,na,ns,ns,na,na
+Galkinius,tabulatus,This study,600.6,274.45,116.6,0.55,measure,planktotrophic,473.94105,coral,coral_reef,na,na,na,na,na,na
+Hesperibalanus,fallax,Korn & Elfimov (1999),428,190,99,1.1627906977,table,planktotrophic,319.8197674489,inter_sub,coastal,8,25,8,8,0,0
+Hesperibalanus,hesperius,Barnes & Barnes (1959),468,153,77,1.7706636447,table,planktotrophic,345.2794107165,inter_sub,coastal,ns,na,ns,ns,na,na
+Heterosaccus,lunatus,Walker & Lester (19998),180,105.0352941176,16.0941176471,0.4235294118,measure,lecithotrophic,132.9598588346,parasite,coastal,3,22,3,3,0,0
+Heterosaccus,papillosus,Ponomarenko et al. (2005),221.9,117.5,22,0.5319148936,table,lecithotrophic,151.6191489313,parasite,coastal,3-4,22-23,3,4,0,0
+Hexaminius,popeiana,Egan & Anderson (1985),329.1666666667,143.75,70.8333333333,0.5208333333,measure,planktotrophic,209.3776041533,inter_sub,coastal,9,20,9,9,0,0
+Jehlius,cirratus,Venegas et al. (2000),390.6593406593,210.989010989,39.5604395604,0.8241758242,measure,planktotrophic,227.4741758308,inter_sub,coastal,13/31,"18-20,15-18",13,31,0,1
+Lepas,anatifera,Moyse (1987),810.2189781022,195.6204379562,264.2335766423,1.4598540146,measure,planktotrophic,667.6656934313,pelagic,open_ocean,60,na,60,60,0,0
+Lepas,anserifera,This study,781.55,139.15,209.55,0.55,measure,planktotrophic,365.48545,pelagic,open_ocean,na,na,na,na,0,0
+Lepas,pectinata,Lang (1979),705.5555555556,177.7777777778,243.5185185185,0.9259259259,measure,planktotrophic,609.6166666496,pelagic,open_ocean,na,na,na,na,0,0
+Leucolepas,longa,Tunnicliffe & Southward (2004),822.8571428571,275.2380952381,51.4285714286,0.9523809524,measure,lecithotrophic,308.8590476252,deep_sea,deep_sea,na,na,na,na,0,0
+Lithotrya,dorsalis,Dineen (1987),554.6666666667,221.3333333333,106.6666666667,1.3333333333,measure,planktotrophic,376.0373333239,inter_sub,coastal,12-23,30,12,23,0,0
+Megabalanus,californicus,Miller & Roughgarden (1994),505.5865921788,290.5027932961,89.3854748603,1.3966480447,measure,planktotrophic,405.0307262591,inter_sub,coastal,ns,na,ns,ns,na,na
+Megabalanus,rosa,Kado & Hirano (1994),421.1678832117,202.9197080292,65.6934306569,0.7299270073,measure,planktotrophic,285.6379562047,inter_sub,coastal,5-8,22,5,8,0,0
+Megabalanus,volcano,Kado & Hirano (1994),388.6287625418,197.3244147157,70.9030100334,0.6688963211,measure,planktotrophic,281.8294314507,inter_sub,coastal,5-8,22,5,5,0,0
+Membranobalanus,koreanus,Lee & Kim (2000),493.1034482759,204.3103448276,41.3793103448,0.8620689655,measure,planktotrophic,278.3982758565,sponge,coral_reef,ns,na,ns,ns,na,na
+Microeuraphia,aestuarii,Sandison (1967),319.6428571429,200.8928571429,58.9285714286,0.8928571429,measure,planktotrophic,243.7562500117,inter_sub,coastal,ns,na,ns,ns,na,na
+Microeuraphia,withersi,Li et al. (2011),338.2857142857,225.7142857143,45.7142857143,0.5714285714,measure,planktotrophic,271.2394285579,inter_sub,coastal,16,25,16,16,0,0
+Neotrevathana,elongatum,Stewart et al. (1989),537.2641509434,247.1698113208,67.9245283019,0.9433962264,measure,planktotrophic,367.2801886734,inter_sub,coastal,ns,na,ns,ns,na,na
+Neoverruca,sp.,Watanabe et al. (1999),527.1644162033,268.6894360604,36.5369340747,1.5885623511,measure,lecithotrophic,326.3097696642,deep_sea,deep_sea,96,5,96,96,1,1
+Notochthamalus,scabrosus,Venegas et al. (2000),366.577540107,204.5454545455,54.9465240642,0.8021390374,measure,planktotrophic,256.7294117541,inter_sub,coastal,20/37,"18-20,15-18",20,37,0,1
+Notomegabalanus,algicola,Sandison & Day (1954),294.2321557318,116.0778658976,38.2119682769,0.7209805335,measure,planktotrophic,187.4772891065,inter_sub,coastal,ns,na,ns,ns,na,na
+Octolasmis,angulata,Yap et al. (2015),765,117,164,1.7857142857,table,planktotrophic,332.1482142831,epibiotic,coastal,31,27,31,31,0,0
+Octolasmis,cor,Yap et al. (2015),711,115,176,1.7857142857,table,planktotrophic,323.2142857117,epibiotic,coastal,31,27,31,31,0,0
+Octolasmis,forresti,Lang (1979),1083.3333333333,174.358974359,117.9487179487,1.2820512821,measure,planktotrophic,351.7397436031,epibiotic,coastal,ns,na,ns,ns,na,na
+Octolasmis,lowei,Lang (1976),810.8910891089,89.1089108911,69.3069306931,0.9900990099,measure,planktotrophic,208.523762376,epibiotic,coastal,14-18,24-29,14,18,0,0
+Octolasmis,warwicki,This study,1006.5,140.8,168.85,0.55,measure,planktotrophic,337.31885,epibiotic,coastal,na,na,na,na,na,na
+Octomeris,angulosa,Sandison & Day (1954),320.1550387597,183.7209302326,65.8914728682,0.7751937984,measure,planktotrophic,280.6294573464,inter_sub,coastal,ns,na,ns,ns,na,na
+Octomeris,brunnea,Kim (1998),353.75,243.125,55,0.625,measure,planktotrophic,307.165625,inter_sub,coastal,6-9,28,6,9,0,0
+Pollicipes,pollicipes,Molares et al. (1994),423.8372093023,230.2325581395,101.7441860465,0.5813953488,measure,planktotrophic,373.8244185807,inter_sub,coastal,23,20,23,23,0,0
+Pollicipes,polymerus,Lewis (1975),305.1724137931,181.0344827586,64.6551724138,0.8620689655,measure,planktotrophic,263.8155172361,inter_sub,coastal,42,12,42,42,1,1
+Polyascus,plana,Tu et al. (2009),214.406779661,158.4745762712,21.186440678,1.6949152542,measure,lecithotrophic,176.8796610131,parasite,coastal,2.75,20,2.75,2.75,0,0
+Polyascus,polygenea,Korn et al. (2000),260.7,165.8,23.6,0.6493506494,table,lecithotrophic,198.727922093,parasite,coastal,2.5,22-23,2.5,2.5,0,0
+Pseudoctomeris,sulcata,Kado & Kim (1996),384.6153846154,200.6688963211,73.5785953177,0.6688963211,measure,planktotrophic,318.4742475058,inter_sub,coastal,9.2/16.7,22,9.2,16.7,0,0
+Sacculina,carcini,Collis & Walker (2004),343.9688715953,154.0856031128,21.4007782101,0.3891050584,measure,lecithotrophic,205.4533074111,parasite,coastal,ns,na,ns,ns,0,0
+Sacculina,pilosella,Korn & Rybakow (2001),239.4,130.6,19.2,0.8474576271,table,lecithotrophic,200.0881355888,parasite,coastal,3,22-23,3,3,0,0
+Scalpellum,scalpellum,Kaufmann (1964),341,250,76,0.7299270073,measure,lecithotrophic,345,inter_sub,coastal,9.5-24.5,16.9-9.7,9.5,24.5,1,1
+Semibalanus,balanoides,Pyefinch (1948),525.198938992,271.8832891247,39.124668435,0.6631299735,measure,planktotrophic,334.3123342302,inter_sub,coastal,ns,na,ns,ns,na,na
+Semibalanus,cariosus,Branscomb & Vedder (1982),678.5714285714,296.5838509317,69.8757763975,1.5527950311,measure,planktotrophic,396.1568323094,inter_sub,coastal,ns,na,ns,ns,na,na
+Striatobalanus,cristatus,Lee et al. (2002),247.7941176471,116.9117647059,24.2647058824,0.7352941176,measure,planktotrophic,165.0272058718,inter_sub,coastal,18,20,18,18,0,0
+Tesseropora,pacifica,Crisp (1986),596.4419475655,371.7228464419,100.1872659176,0.936329588,measure,lecithotrophic,442.6526217158,inter_sub,coastal,ns,na,ns,ns,na,na
+Tesseropora,rosea,Egan & Anderson (1988),455.5555555556,230.3703703704,70.3703703704,0.7407407407,measure,planktotrophic,319.0674073899,inter_sub,coastal,13,20,13,13,0,0
+Tetraclita,japonica formosana,This study,443.3,226.05,72.325,0.55,measure,planktotrophic,342.6918,inter_sub,coastal,7-10,25,7,10,0,0
+Tetraclita,japonica japonica,This study,440.55,225.5,72.05,0.55,measure,planktotrophic,329.5908,inter_sub,coastal,7-10,25,7,10,0,0
+Tetraclita,kuroshioensis,This study,494.45,273.35,82.225,0.55,measure,planktotrophic,403.69395,inter_sub,coastal,7-10,25,7,10,0,0
+Tetraclita,rubescens,Miller & Roughgarden (1994),546.4601769912,255.5309734513,88.4955752212,1.1061946903,measure,planktotrophic,375.4546460294,inter_sub,coastal,ns,na,ns,ns,na,na
+Tetraclita,rufotincta,Barnes & Achituv (1981),548,358.4,94.1,1.0526315789,table,lecithotrophic,485.1063157676,inter_sub,coastal,6-8,22,6,8,0,0
+Tetraclita,serrata,Sandison & Day (1954),404.6692607004,224.1245136187,57.5875486381,0.7782101167,measure,planktotrophic,269.3968871486,inter_sub,coastal,ns,na,ns,ns,0,0
+Tetraclita,squamosa,Chan (2003),249.4382022472,129.2134831461,46.0674157303,0.5617977528,measure,planktotrophic,209.8460674124,inter_sub,coastal,14,20,14,14,0,0
+Tetraclitella,karandei,Karande (1974),489.3333333333,229.3333333333,70,0.6666666667,measure,planktotrophic,331.7273333499,inter_sub,coastal,11-12,ns,11,12,na,na
+Tetraclitella,purpurascens,Egan & Anderson (1988),359.0909090909,204.5454545455,71.4285714286,0.6493506494,measure,planktotrophic,287.4668831387,inter_sub,coastal,19,20,19,19,0,0
+Verruca,stroemia,Pyefinch (1948),448.6842105263,207.8947368421,85.5263157895,0.6578947368,measure,planktotrophic,323.7513157688,inter_sub,coastal,ns,na,ns,ns,na,na
