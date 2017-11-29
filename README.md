@@ -1,3 +1,6 @@
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1068125.svg)](https://doi.org/10.5281/zenodo.1068125)
+
 [![Travis-CI Build Status](https://travis-ci.org/jinyung/barnlarv.svg?branch=master)](https://travis-ci.org/jinyung/barnlarv)
 
 
