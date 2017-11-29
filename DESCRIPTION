@@ -1,18 +1,21 @@
 Package: barnlarv
 Type: Package
-Title: Meta-analysis of barnacle larvae literature
+Title: Comparative outline analysis of barnacle nauplii
 Version: 0.0.1
-Date: 2016-07-20
-Author: Wong Jin Yung
+Date: 2017-11-29
+Authors@R: c(person("Jin Yung", "Wong", 
+          email = "wongjinyung@gmail.com", role = c("aut", "cre")),
+  person("Benny K. K.", "Chan", email = "chankk@gate.sinica.edu.tw", 
+          role = "ths"), 
+  person("K. Y. Karen", "Chan", email = "karenchan@ust.hk", role = "ths"))
 Maintainer: Wong Jin Yung <wongjinyung@gmail.com>
-Description: A packagee contains morphometrics data of barnancle larvae
-    digitized from literature
+Description: Companion package for manuscript on comparative analysis of barnacle
+  nauplii outline.
 License: GPL(>= 2)
 Depends:
     R(>= 3.0.0)
 LazyLoad: yes
-URL: https://github.com/jinyung/larvae-review
-RoxygenNote: 5.0.1
-Suggests: knitr,
-    rmarkdown
+URL: https://github.com/jinyung/barnlarv
+Imports: EBImage, tiff
+Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
