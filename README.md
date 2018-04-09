@@ -1,15 +1,11 @@
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1068125.svg)](https://doi.org/10.5281/zenodo.1068125)
-
-[![Travis-CI Build Status](https://travis-ci.org/jinyung/barnlarv.svg?branch=master)](https://travis-ci.org/jinyung/barnlarv)
-
-
 # barnlarv
 
-## About
+[![Travis-CI Build Status](https://travis-ci.org/jinyung/barnlarv.svg?branch=master)](https://travis-ci.org/jinyung/barnlarv)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1068124.svg)](https://doi.org/10.5281/zenodo.1068124)
+
 This is a companion `R` package to the manuscript:
 
-> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (2017). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii.
+> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (2017). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. *submitted*.
 
 Findings reported in the manuscript can be reproduced with the datasets and codes from this package.
 

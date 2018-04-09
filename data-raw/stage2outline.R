@@ -23,7 +23,7 @@ stage2list <- list.files(drawing_dir, full.names = TRUE, pattern = ".tif")
 # # debug
 # debugdf <- data.frame(a = sapply(stage2list, function(x) {
 #                                   a <- unlist(strsplit(basename(x), "-"));
-#                                   paste(a[1], a[2])
+#                                   paste(a[-length(a)], collapse = " ")
 #                                   }, USE.NAMES = FALSE),
 #             b = paste(stage2mdat$genus, stage2mdat$species))
 # debugdf[!debugdf$a %in% debugdf$b, ]
