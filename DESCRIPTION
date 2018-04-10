@@ -1,8 +1,8 @@
 Package: barnlarv
 Type: Package
 Title: Comparative outline analysis of barnacle nauplii
-Version: 0.0.1
-Date: 2017-11-29
+Version: 0.0.2
+Date: 2018-04-10
 Authors@R: c(person("Jin Yung", "Wong", 
           email = "wongjinyung@gmail.com", role = c("aut", "cre")),
   person("Benny K. K.", "Chan", email = "chankk@gate.sinica.edu.tw", 
