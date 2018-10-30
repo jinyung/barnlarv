@@ -3,11 +3,11 @@
 [![Travis-CI Build Status](https://travis-ci.org/jinyung/barnlarv.svg?branch=master)](https://travis-ci.org/jinyung/barnlarv)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1068124.svg)](https://doi.org/10.5281/zenodo.1068124)
 
-This is a companion `R` package to the manuscript:
+This is a companion `R` package to the paper:
 
-> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (2017). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. *submitted*.
+> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (in press). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. PLoS ONE.
 
-Findings reported in the manuscript can be reproduced with the datasets and codes from this package.
+Findings reported in the paper can be reproduced with the datasets and codes from this package. 
 
 ---
 
@@ -25,7 +25,7 @@ devtools::install_github("jinyung/barnlarv")
 
 \*Note:
 
-  1. binaries for Windows not provided at the moment, `devtools` method should work across platforms. 
+  1. binaries for Windows not provided, `devtools` method should work across platforms. 
 
   2. [releases](https://github.com/jinyung/barnlarv/releases) page also contains package manual.
 
@@ -62,11 +62,13 @@ ape::read.tree(system.file("extdata/perez-tree-37-species",
 
 ## Reproducing the results
 
-All tables and figures can be reproduced following the dynamic `R markdown` documents:
+All tables and figures can be reproduced following the dynamic `R markdown` documents, which can be download [here](https://github.com/jinyung/barnlarv/releases/download/v0.0.3/tables_and_figures.zip).
 
-- [Main figures and tables](inst/doc/figures_and_tables.Rmd) **
-- [Supplementary figures and tables](inst/doc/supplementary_figures_and_tables.Rmd) **
+There are three files inside `.zip`:
+1. `figures_and_tables.Rmd`
+2. `inst/doc/supplementary_figures_and_tables.Rmd`
+3. `preamble.tex`
 
-These files will produce the figures and tables used for submission (`knitr` engine required for compilation)
+file 1 will produce figures and tables in the main paper; file 2 will produce the supplementary tables and figures; file 3 is used for formatting in `knitr` compilation of `Rmd` files for pdf outputs. Compiling the `Rmd` files will reproduce the results*.
 
-\*\*Note: will be available after manuscript review
+\***NOTE**: the figures, tables, and supplements were created with `barnlarv v0.0.2`, as such can only be 100% reproduced with the specific `R` session environment used when the paper was written. See [v0.0.2 release notes](https://github.com/jinyung/barnlarv/releases/tag/v0.0.2) for details.
