@@ -5,7 +5,7 @@
 
 This is a companion `R` package to the paper:
 
-> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (in press). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. PLoS ONE.
+> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (in press). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. *PLoS ONE*.
 
 Findings reported in the paper can be reproduced with the datasets and codes from this package. 
 
@@ -66,7 +66,7 @@ All tables and figures can be reproduced following the dynamic `R markdown` docu
 
 There are three files inside `.zip`:
 1. `figures_and_tables.Rmd`
-2. `inst/doc/supplementary_figures_and_tables.Rmd`
+2. `supplementary_figures_and_tables.Rmd`
 3. `preamble.tex`
 
 file 1 will produce figures and tables in the main paper; file 2 will produce the supplementary tables and figures; file 3 is used for formatting in `knitr` compilation of `Rmd` files for pdf outputs. Compiling the `Rmd` files will reproduce the results*.
