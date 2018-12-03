@@ -5,7 +5,7 @@
 
 This is a companion `R` package to the paper:
 
-> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (in press). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. *PLoS ONE*.
+> Wong, J. Y., Chan, K. Y. K., & Chan, B. K. K. (2018). Phylogenetic, ecological and biomechanical constraints on larval form: A comparative morphological analysis of barnacle nauplii. *PLoS ONE*, 13(11): e0206973. [doi:10.1371/journal.pone.0206973](https://doi.org/10.1371/journal.pone.0206973)
 
 Findings reported in the paper can be reproduced with the datasets and codes from this package. 
 
