@@ -9,6 +9,12 @@ This is a companion `R` package to the paper:
 
 Findings reported in the paper can be reproduced with the datasets and codes from this package. 
 
+### **NEW: Interactive version of the figures**
+
+Easier way to explore the data and understand the analysis. [CLICK HERE](https://jinyung.github.io/publication/wong-2018-naupliimorph/#interactive-plots) to view the interactive plots.
+
+https://github.com/jinyung/barnlarv/assets/3379086/13cb0818-0d91-4337-a3eb-c19bbd94e5cc
+
 ---
 
 ## Installation:
